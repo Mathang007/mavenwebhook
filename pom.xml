@@ -9,11 +9,6 @@
 	<name>CounterWebApp Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 	<properties>
-
-
-
-
-		
 		 <jdk.version>1.7</jdk.version>
 		<spring.version>4.1.1.RELEASE</spring.version>
 		<jstl.version>1.2</jstl.version>
@@ -24,6 +19,10 @@
 	<dependencies>	
 	<!-- Unit Test -->
 		<dependency>
+
+
+
+			
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 			<version>${junit.version}</version>
@@ -56,6 +55,7 @@
 			<version>${spring.version}</version>
 		</dependency>
 		<dependency>
+			
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-webmvc</artifactId>
 			<version>${spring.version}</version>
